@@ -18,7 +18,7 @@
     "@eslint-recommended/eslint-config-typescript": "50.1.0",
     "@tsconfig/node22": "^22.0.0",
     "@types/node": "22.7.4",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "glob": "10.3.16",
     "rimraf": "5.0.10",
     "tsx": "4.11.2",
