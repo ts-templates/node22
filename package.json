@@ -1,0 +1,28 @@
+{
+  "name": "@ts-templates/node22",
+  "version": "0.1.0",
+  "description": "Template for TypeScript project using Node.js v22",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rimraf dist",
+    "lint": "eslint --ignore-path .gitignore '**/*.{js,cjs,mjs,ts,cts,mts}'",
+    "prebuild": "npm run clean",
+    "start": "tsx src/main.ts",
+    "test": "glob -c 'node --test --require tsx/cjs' 'src/**/*.test.ts'"
+  },
+  "engines": {
+    "node": "22.7.0"
+  },
+  "devDependencies": {
+    "@eslint-recommended/eslint-config-typescript": "50.1.0",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "22.7.4",
+    "eslint": "8.57.0",
+    "glob": "10.3.16",
+    "rimraf": "5.0.7",
+    "tsx": "4.11.2",
+    "typescript": "5.4.5"
+  },
+  "license": "MIT"
+}
