@@ -1,4 +1,3 @@
-[![build](https://github.com/ts-templates/node22/actions/workflows/build.yml/badge.svg)](https://github.com/ts-templates/node22/actions/workflows/build.yml)
 [![test](https://github.com/ts-templates/node22/actions/workflows/test.yml/badge.svg)](https://github.com/ts-templates/node22/actions/workflows/test.yml)
 
 # @ts-templates/node22
